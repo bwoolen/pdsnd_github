@@ -1,3 +1,6 @@
+#This file runs a python script that prompts users to choose between Washington, Chicago, and New York City.
+#Based on their choice they are shown a variety of statistics from bikeshare data provided by Motivate.
+
 import time
 import pandas as pd
 import numpy as np
