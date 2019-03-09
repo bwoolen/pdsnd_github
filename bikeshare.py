@@ -27,7 +27,7 @@ def get_filters():
     city=city.lower()
     while True:
 
-       if city == 'chi' or city == 'chicago':
+         if city == 'chi' or city == 'chicago':
             print('\nChicago! Nice!\n')
             city = 'chicago'
             break
@@ -39,8 +39,9 @@ def get_filters():
             break
             
         
-        elif city == 'washington':
+        elif city == 'was' or city=='washington':
             print('\nWashington! Nice!\n')
+            city='washington'    
             break
             
                 
