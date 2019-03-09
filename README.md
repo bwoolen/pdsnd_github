@@ -9,7 +9,10 @@ This project analyzes bike share data for Chicago, Washington DC, and New York C
 provided this data for the months of January through June in 2017.
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+washington.csv
+new_york_city.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
