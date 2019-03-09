@@ -46,7 +46,7 @@ def get_filters():
             
                 
         else:
-            print('\nPlease enter Chicago, New York City, or Washington.\n')
+            print('\nPlease enter Chicago, New York City, or Washington.\nValid inputs are below.\nFor Chicago you may enter Chicago or CHI\n For New York City you many enter New York or NYC\n For Washington you may enter Washington or WAS\n')
             city=input('Enter a city from the list above that you would like to see data for: ')
             city=city.lower()
     
