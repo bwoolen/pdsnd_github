@@ -27,26 +27,24 @@ def get_filters():
     city=city.lower()
     while True:
 
-         if city == 'chi' or city == 'chicago':
+        if city == 'chi' or city == 'chicago':
             print('\nChicago! Nice!\n')
             city = 'chicago'
             break
-            
 
-        elif city == 'nyc' or city=='new york':
+        elif city == 'nyc' or city == 'new york':
             print('\nNew York City! Nice!\n')
-            city='new york city'    
+            city = 'new york city'
             break
-            
-        
-        elif city == 'was' or city=='washington':
+
+        elif city == 'was' or city == 'washington':
             print('\nWashington! Nice!\n')
-            city='washington'    
+            city = 'washington'
             break
             
                 
         else:
-            print('\nPlease enter Chicago, New York City, or Washington.\n')
+            print('\nPlease enter Chicago, New York City, or Washington.\nValid inputs are below.\n For Chicago you may enter Chicago or CHI\n For New York City you many enter New York or NYC\n For Washington you may enter Washington or WAS\n')
             city=input('Enter a city from the list above that you would like to see data for: ')
             city=city.lower()
     
