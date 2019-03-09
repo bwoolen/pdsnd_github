@@ -5,7 +5,8 @@
 Python Bikeshare Project - Brandon Woolen
 
 ### Description
-Describe what your project is about and what it does
+This project analyzes bike share data for Chicago, Washington DC, and New York City.  Motivate, a bike share company, 
+provided this data for the months of January through June in 2017.
 
 ### Files used
 Include the files used
