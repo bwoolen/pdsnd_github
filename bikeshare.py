@@ -33,8 +33,9 @@ def get_filters():
             break
             
 
-        elif city == 'new york city':
+        elif city == 'nyc' or city=='new york':
             print('\nNew York City! Nice!\n')
+            city='new york city'    
             break
             
         
